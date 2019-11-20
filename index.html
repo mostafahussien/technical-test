@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infinite recursive shape</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h4 class="center">Infinite recursive shape</h4>
+        <p class="center">Width should be even and >=20, Height should be even and >=20, Padding should be even and >=4</p>
+        <div class="row">
+            <form class="col s12">
+                <div class="row" style="display: flex; align-items: center">
+                    <div class="input-field col s3">
+                        <input id="width" type="text" class="validate">
+                        <label for="width">Width</label>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="height" type="text" class="validate">
+                        <label for="height">Height</label>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="padding" type="text" class="validate">
+                        <label for="padding">Padding</label>
+                    </div>
+                    <div class="col s3">
+                        <a class="waves-effect waves-light btn" onclick="formSubmit()">Submit</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <pre></pre>
+    </div>
+</body>
+
+</html>
